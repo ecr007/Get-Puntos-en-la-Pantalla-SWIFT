@@ -4,5 +4,8 @@
 override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
     let touch = touches.first!
     let location = touch.location(in: self)
+    
+    print(position.x)
+    print(position.y)
 }
 ```
